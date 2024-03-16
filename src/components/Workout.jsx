@@ -3,16 +3,21 @@ function Workout({ wod }) {
     <article>
       {wod === "CROSSFIT" ? (
         <div>
-          <pre className=" text-3xl text-[#eee] text-balance tracking-wide font-[Roboto]">
+          <pre className=" text-3xl text-[#eee] text-center tracking-wide font-[Roboto] ">
             {`
 
-        OTM x 8'
-        5 Sprawl + 5 Pushups + 5 Burpees
+1) Amrap 20': libre división de reps 
+40 box jumps 
+50 wall balls
+30 Burpees to plate
+6 wall climb 
+100 mts run synchro
 
-        Amrap x 18'
-        30 CFT Swing
-        20 Goblet Lunges
-        10 F82H
+2)Amrap 5':
+10/10 Mb Russian twist
+10 Mb crunch
+10 rodillas a la panza en plancha ( pies en Mb)
+10" Hollow hold con pelota en manos.
         
         `}
           </pre>

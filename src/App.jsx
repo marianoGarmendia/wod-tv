@@ -12,7 +12,7 @@ function App() {
   return (
     <section className="h-screen w-full">
       <header className="w-full h-[10%]  flex items-center justify-center p-2">
-        <img src="src/assets/logo-g10.png" alt="" className="h-[100%]" />
+        <img src="./src/assets/logo-g10.png" alt="" className="h-[100%]" />
       </header>
       <div
         className="flex tracking-widest  max-h-[10%]"
@@ -40,7 +40,7 @@ function App() {
         </button>
       </div>
       <main className="h-[80%] flex ">
-        <div className="w-2/5 ">
+        <div className="w-1/2 ">
           <div className="flex  ">
             <h3 className="bg-[#212121] flex-1 flex justify-center items-center text-3xl p-4 mx-2 rounded-md my-6 tracking-wide font-semibold">
               {wod}
@@ -52,13 +52,12 @@ function App() {
             </Routes>
           </div>
         </div>
-        <div className="w-3/5 flex items-center ">
+        <div className="w-1/2 flex items-center ">
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/JUc_0HPNKfo?si=QRBwOc1BVFarXiS4?autoplay=1&playlist=JUc_0HPNKfo&loop=1&mute=1&controls=0&modestbranding=1&disablekb=1"
+            src="https://www.youtube.com/embed/videoseries?si=QMVove1rmZ3T8gmA&amp&list=PL_vd2vgAS6aePQf5h5PMfpbuVSreDXzU3&autoplay=1&loop=1&mute=1&controls=0&modestbranding=1&disablekb=1&vq=highres"
             title="YouTube video player"
-            allowfullscreen
           ></iframe>
           {/* <video
             autoPlay
