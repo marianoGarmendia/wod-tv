@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Workout from "./components/Workout";
 
 function App() {
-  const [wod, setWod] = useState("CROSSFIT");
+  const [wod, setWod] = useState("Crossfit");
 
   const handleWod = (e) => {
     const textWod = e.target.innerText;
@@ -12,7 +12,7 @@ function App() {
   return (
     <section className="h-screen w-full">
       <header className="w-full h-[10%]  flex items-center justify-center p-2">
-        <img src="./src/assets/logo-g10.png" alt="" className="h-[100%]" />
+        <img src="wod-tv/src/assets/logo-g10.png" alt="" className="h-[100%]" />
       </header>
       <div
         className="flex tracking-widest  max-h-[10%]"
@@ -30,7 +30,7 @@ function App() {
           Functional
         </button>
         <button className="font-semibold tracking-wide focus:scale-100 focus:bg-[#eee] focus:text-[#171717] p-2 rounded-md max-w-fit hover:scale-105 ease-in-out duration-200 cursor-pointer bg-[#212121] m-2">
-          High
+          High Intensity
         </button>
         <button className="font-semibold tracking-wide focus:scale-100 focus:bg-[#eee] focus:text-[#171717] p-2 rounded-md max-w-fit hover:scale-105 ease-in-out duration-200 cursor-pointer bg-[#212121] m-2">
           Power Woman
@@ -48,7 +48,7 @@ function App() {
           </div>
           <div className="">
             <Routes>
-              <Route path="/" element={<Workout wod={wod} />}></Route>
+              <Route path="/wod-tv" element={<Workout wod={wod} />}></Route>
             </Routes>
           </div>
         </div>
