@@ -65,6 +65,25 @@ Error generating stack: `+o.message+`
  *
  * @license MIT
  */const Qp="6";try{window.__reactRouterVersion=Qp}catch{}const Kp="startTransition",is=Zc[Kp];function Yp(e){let{basename:t,children:n,future:r,window:l}=e,o=z.useRef();o.current==null&&(o.current=sp({window:l,v5Compat:!0}));let i=o.current,[u,s]=z.useState({action:i.action,location:i.location}),{v7_startTransition:c}=r||{},h=z.useCallback(p=>{c&&is?is(()=>s(p)):s(p)},[s,c]);return z.useLayoutEffect(()=>i.listen(h),[i,h]),z.createElement(Wp,{basename:t,children:n,location:u.location,navigationType:u.action,navigator:i,future:r})}var us;(function(e){e.UseScrollRestoration="useScrollRestoration",e.UseSubmit="useSubmit",e.UseSubmitFetcher="useSubmitFetcher",e.UseFetcher="useFetcher",e.useViewTransitionState="useViewTransitionState"})(us||(us={}));var ss;(function(e){e.UseFetcher="useFetcher",e.UseFetchers="useFetchers",e.UseScrollRestoration="useScrollRestoration"})(ss||(ss={}));function Xp({wod:e}){return T.jsx("article",{children:e==="Crossfit"?T.jsx("div",{children:T.jsx("pre",{className:" text-4xl text-[#eee] text-center tracking-wider  font-[Roboto] ",children:`
+"
+1) OTM X 6´
+1 clean lift off+
+1 tempo power clean
++1 low hang power clean
++1 power jerk
+
+
+2)3 rounds for time:
+en parejas
+40 box jump over *
+20 power clean *
+20 jerk *
+20 synchro  burpees over the bar (lateral)
+tc 18´.
+* A dividir 
+*60/45 adv
+*50/35 std
+
 
 
 
@@ -86,7 +105,31 @@ Amrap 21'
 *Cada 3' 30 Jumping jacks
         
         `})}):e==="High Intensity"?T.jsx("div",{children:T.jsx("pre",{className:" text-4xl text-[#eee] text-center tracking-wider  font-[Roboto] ",children:`
+Set Core
 
+8 Rounds
+8’’ Hollow hold
+8’’ V-ups alternado
+8’’ V-up
+8’’ Hollow hold
+20” rest
+
+Set Metabolic
+
+5 Rounds
+20” x 20”
+
+Sprawl sobre mb + jump over the mb
+drop squat
+Rotational chop
+Push up + Shoulder touches
+ 
+5 rounds
+15” x 15”
+Plank to get up
+lunges jump
+dragon flag
+Frog jump
 
 
         
