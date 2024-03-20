@@ -88,7 +88,7 @@ tc 18´.
 
 
         
-        `})}):e==="Functional"?T.jsx("div",{children:T.jsx("div",{contentEditable:"true",className:" text-4xl text-[#eee] text-center tracking-wider  font-[Roboto] ",children:`
+        `})}):e==="Functional"?T.jsx("div",{children:T.jsx("pre",{className:" text-4xl text-[#eee] text-center tracking-wider  font-[Roboto] ",children:`
 Bloque 1
 
 3 Rounds
