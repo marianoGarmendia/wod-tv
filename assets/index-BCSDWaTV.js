@@ -82,7 +82,25 @@ ronda que pasa aumento
 *50/35
 *40/25 
         `})}):e==="Functional"?T.jsx("div",{children:T.jsx("pre",{className:" text-4xl text-[#eee] text-center tracking-wider  font-[Roboto] ",children:`
+emom: 4 rondas
 
+min 1: 10 burpees
+
+min 2 : 25 swing 
+
+min 3: 20 sit ups
+
+12
+
+amrap 15?:
+
+10  db thrusters (5+5)
+
+12 doble db/kb deadlift
+
+14 v ups
+
+16 du
         `})}):e==="High Intensity"?T.jsx("div",{children:T.jsx("pre",{className:" text-4xl text-[#eee] text-center tracking-wider  font-[Roboto] ",children:`
 
 
