@@ -67,8 +67,8 @@ Error generating stack: `+o.message+`
  */const Qp="6";try{window.__reactRouterVersion=Qp}catch{}const Kp="startTransition",is=Zc[Kp];function Yp(e){let{basename:t,children:n,future:r,window:l}=e,o=z.useRef();o.current==null&&(o.current=sp({window:l,v5Compat:!0}));let i=o.current,[u,s]=z.useState({action:i.action,location:i.location}),{v7_startTransition:c}=r||{},h=z.useCallback(p=>{c&&is?is(()=>s(p)):s(p)},[s,c]);return z.useLayoutEffect(()=>i.listen(h),[i,h]),z.createElement(Wp,{basename:t,children:n,location:u.location,navigationType:u.action,navigator:i,future:r})}var us;(function(e){e.UseScrollRestoration="useScrollRestoration",e.UseSubmit="useSubmit",e.UseSubmitFetcher="useSubmitFetcher",e.UseFetcher="useFetcher",e.useViewTransitionState="useViewTransitionState"})(us||(us={}));var ss;(function(e){e.UseFetcher="useFetcher",e.UseFetchers="useFetchers",e.UseScrollRestoration="useScrollRestoration"})(ss||(ss={}));function Xp({wod:e}){return L.jsx("article",{children:e==="Crossfit"?L.jsx("div",{children:L.jsx("pre",{className:" text-4xl text-[#eee] text-center tracking-wider  font-[Roboto] ",children:`
 1) Deadlift:
 Every 1'30": 4 rounds
-3 reps al 70%
-*Pausa 2" abajo
+3 reps al 75%
+*Pausa 2" despegue
 
 
 2) COMPLETAR:
@@ -81,11 +81,6 @@ OUT=400 MTS RUN
 *80/60
 *70/50
 TC= 18´.
-
-
-
-
-
 
 
         `})}):e==="Functional"?L.jsx("div",{children:L.jsx("pre",{className:" text-4xl text-[#eee] text-center tracking-wider  font-[Roboto] ",children:`
@@ -128,7 +123,6 @@ V-ups alternados
 
         `})}):e==="Power Woman"?L.jsx("div",{children:L.jsx("pre",{className:" text-4xl text-[#eee] text-center tracking-wider  font-[Roboto] ",children:`
 Front squat
-
 5 x 4 /7%
 
 Otm x 12'
@@ -137,13 +131,19 @@ Otm x 12'
 - Swing
 - Squat jump
 
-
 Otm x 12'
 40" x 20"
 - Narrow squat
 - Squat hold
 - Goblet squat + half squat
         `})}):e==="Full Body"&&L.jsx("div",{children:L.jsx("pre",{className:" text-4xl text-[#eee] text-center tracking-wider  font-[Roboto] ",children:`
+Completar de 10 a 1
+Remo con barra (toma supina)
+Bíceps martillo  (2 dB)
 
-
+40x20 x5R
+Peso muerto 
+Bicycle abs
+Estocadas atrás alt 2db (déficit)
+See saw plank
         `})})})}function Gp(){const[e,t]=z.useState("Crossfit"),n=r=>{const l=r.target.innerText;t(l)};return L.jsxs("section",{className:"h-screen w-full",children:[L.jsx("header",{className:"w-full h-[10%]  flex items-center justify-center p-2",children:L.jsx("img",{src:"wod-tv/src/assets/logo-g10.png",alt:"",className:"h-[100%]"})}),L.jsxs("div",{className:"flex tracking-widest  max-h-[10%]",onClick:r=>{n(r)},children:[L.jsx("button",{className:"font-semibold tracking-wide focus:scale-100 focus:bg-[#eee] focus:text-[#171717] p-2 rounded-md max-w-fit hover:scale-105 ease-in-out duration-200 cursor-pointer bg-[#212121] m-2",children:"Crossfit"}),L.jsx("button",{className:" font-semibold tracking-wide focus:scale-100 focus:bg-[#eee] focus:text-[#171717] p-2 rounded-md max-w-fit hover:scale-105 ease-in-out duration-200 cursor-pointer bg-[#212121] m-2",children:"Woman"}),L.jsx("button",{className:"font-semibold tracking-wide  focus:scale-100 focus:bg-[#eee] focus:text-[#171717] p-2 rounded-md max-w-fit hover:scale-105 ease-in-out duration-200 cursor-pointer bg-[#212121] m-2",children:"Functional"}),L.jsx("button",{className:"font-semibold tracking-wide focus:scale-100 focus:bg-[#eee] focus:text-[#171717] p-2 rounded-md max-w-fit hover:scale-105 ease-in-out duration-200 cursor-pointer bg-[#212121] m-2",children:"High Intensity"}),L.jsx("button",{className:"font-semibold tracking-wide focus:scale-100 focus:bg-[#eee] focus:text-[#171717] p-2 rounded-md max-w-fit hover:scale-105 ease-in-out duration-200 cursor-pointer bg-[#212121] m-2",children:"Power Woman"}),L.jsx("button",{className:" font-semibold tracking-wide focus:scale-100 focus:bg-[#eee] focus:text-[#171717] p-2 rounded-md max-w-fit hover:scale-105 ease-in-out duration-100 cursor-pointer bg-[#212121] m-2",children:"Intense Functional"}),L.jsx("button",{className:" font-semibold tracking-wide focus:scale-100 focus:bg-[#eee] focus:text-[#171717] p-2 rounded-md max-w-fit hover:scale-105 ease-in-out duration-100 cursor-pointer bg-[#212121] m-2",children:"Full Body"})]}),L.jsxs("main",{className:"h-[80%] flex ",children:[L.jsxs("div",{className:"w-1/2 ",children:[L.jsx("div",{className:"flex  ",children:L.jsx("h3",{className:"bg-[#212121] flex-1 flex justify-center items-center text-3xl p-4 mx-2 rounded-md my-6 tracking-wide font-semibold",children:e})}),L.jsx("div",{className:"",children:L.jsx(Hp,{children:L.jsx(Tc,{path:"/wod-tv",element:L.jsx(Xp,{wod:e})})})})]}),L.jsx("div",{className:"w-1/2 flex items-center ",children:L.jsx("iframe",{width:"100%",height:"100%",src:"https://www.youtube.com/embed/videoseries?si=QMVove1rmZ3T8gmA&amp&list=PL_vd2vgAS6aePQf5h5PMfpbuVSreDXzU3&autoplay=1&loop=1&mute=1&controls=0&modestbranding=1&disablekb=1&vq=highres",title:"YouTube video player"})})]})]})}bl.createRoot(document.getElementById("root")).render(L.jsx(Yp,{children:L.jsx(Gp,{})}));
