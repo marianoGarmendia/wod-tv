@@ -101,26 +101,25 @@ Amrap  x 12'
 
         `})}):e==="High Intensity"?T.jsx("div",{children:T.jsx("pre",{className:" text-4xl text-[#eee] text-center tracking-wider  font-[Roboto] ",children:`
 
-Set Core
-3 rounds
-16 mb crunch
-16 Superman
-16 v-up alternado
-16 Goodmorning 
+Set core
 
-Set Metabolic
-3 rounds
-40" x 20"
-Grasshoppers
-Squat jump + Sprawl (3+1)
-Rotational chop
+30x15 x3 TC: 9’
+Crunch MB
+Bird dog
+Leg rises (pelota e/ los pies)
+Sit up star to v-up (pelota)
+
+Set metabolic
+7R 15x15 TC: 14’
+Deck squat
+Push press
+Lunges jump
 Vitalizaciones
 
-Tabata
-8 rounds
-20" x 10"
-Crab toe touches
-Burpees bastard
+AMRAP 7’
+6 Burpees
+8 Squat jump
+25 Jumping jacks
         `})}):e==="Intense Functional"?T.jsx("div",{children:T.jsx("pre",{className:" text-4xl text-[#eee] text-center tracking-wider  font-[Roboto] ",children:`
 
 1) 40x20 x 2 rounds
